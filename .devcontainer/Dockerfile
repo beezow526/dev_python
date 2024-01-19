@@ -19,16 +19,16 @@ git
 #install miniconda3
 WORKDIR /opt
 
-# download anaconda package and install anaconda
+# download miniconda package and install miniconda
 # archive -> https://repo.anaconda.com/miniconda/
 # M1チップApple使いはローカルで動かしたい時こっち
 # RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh && \
-#     sh /opt/Miniconda3-latest-Linux-aarch64.sh -b -p /opt/anaconda3 && \
+#     sh /opt/Miniconda3-latest-Linux-aarch64.sh -b -p /opt/miniconda3 && \
 #     rm -f Miniconda3-latest-Linux-aarch64.sh
 
 # intelチップor Linux環境に繋ぐときはこっち
 RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && \
-    sh /opt/Miniconda3-latest-Linux-x86_64.sh -b -p /opt/anaconda3 && \
+    sh /opt/Miniconda3-latest-Linux-x86_64.sh -b -p /opt/miniconda3 && \
     rm -f Miniconda3-latest-Linux-x86_64.sh
 
 
