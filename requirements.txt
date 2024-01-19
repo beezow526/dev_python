@@ -1,0 +1,17 @@
+#installしたいライブラリ
+scikit-learn
+opencv-python
+nibabel
+plotly
+chart_studio
+jupyter-dash
+ipywidgets>=7.6
+lightgbm
+xgboost
+graphviz
+catboost
+category_encoders
+hyperopt
+hpsklearn
+jupyterlab
+optuna
