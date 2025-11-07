@@ -1,4 +1,3 @@
-#installしたいライブラリ
 scikit-learn
 opencv-python
 nibabel
@@ -15,3 +14,14 @@ hyperopt
 hpsklearn
 jupyterlab
 optuna
+japanize-matplotlib #フォント日本語で使いたい
+seaborn #綺麗なグラフを書きたい
+lingam # lingam使いたい
+pgmpy #ベイジアンネットワークなど複数のアルゴリズムで因果分析が可能なライブラリ
+pyvis #ネットワークグラフをインタラクティブなHtmlに出力するためのライブラリ
+networkx #グラフとネットワークを研究するためのライブラリ
+pyarrow
+bayesian-optimization
+GPy
+gpyopt
+numba
